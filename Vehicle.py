@@ -13,10 +13,13 @@ class Vehicle:
         return "Beep beep!"
     
     def fuel_up(self):
-        return "Full tank"
+        return "Full tank" 
 
     def windshield_fluid(self):
-        return "Windshield fluid empty."
+        return f"Windshield fluid empty. Please consult owners manual for proper filling."
     
     def brake(self):
         print("Braking the car.")
+    
+
+
